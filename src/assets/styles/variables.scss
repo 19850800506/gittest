@@ -1,0 +1,115 @@
+// base color
+$blue: #324157;
+$light-blue: #3A71A8;
+$red: #C03639;
+$pink: #E65D6E;
+$green: #30B08F;
+$tiffany: #4AB7BD;
+$yellow: #FEC171;
+$panGreen: #30B08F;
+
+// 默认菜单主题风格
+$base-menu-color: #bfcbd9;
+$base-menu-color-active: #4ee2c7;
+$base-menu-background: #242a29;
+$base-logo-title-color: #4ee2c7;
+
+$base-menu-light-color: rgba(0, 0, 0, .70);
+$base-menu-light-background: #ffffff;
+$base-logo-light-title-color: #001529;
+
+$base-sub-menu-background: #242a29;
+$base-sub-menu-hover: #001528;
+
+
+// 自定义暗色菜单风格
+/**
+$base-menu-color:hsla(0,0%,100%,.65);
+$base-menu-color-active:#fff;
+$base-menu-background:#001529;
+$base-logo-title-color: #ffffff;
+
+$base-menu-light-color:rgba(0,0,0,.70);
+$base-menu-light-background:#ffffff;
+$base-logo-light-title-color: #001529;
+
+$base-sub-menu-background:#000c17;
+$base-sub-menu-hover:#001528;
+*/
+
+$base-sidebar-width: 200px;
+
+// the :export directive is the magic sauce for webpack
+// https://www.bluematador.com/blog/how-to-share-variables-between-js-and-sass
+:export {
+  menuColor: $base-menu-color;
+  menuLightColor: $base-menu-light-color;
+  menuColorActive: $base-menu-color-active;
+  menuBackground: $base-menu-background;
+  menuLightBackground: $base-menu-light-background;
+  subMenuBackground: $base-sub-menu-background;
+  subMenuHover: $base-sub-menu-hover;
+  sideBarWidth: $base-sidebar-width;
+  logoTitleColor: $base-logo-title-color;
+  logoLightTitleColor: $base-logo-light-title-color
+}
+
+// 暗色主题风格
+$base-background-color: #242A29; // 页面背景色
+$base-input-bg-color: #242A29; //input bg
+$base-input-border-color: #B8BFBF; //input 边框颜色
+//搜索按钮 
+// 默认样式
+$base-searchBg-color: #2C9997;
+$base-search-size: #fff;
+// 鼠标悬浮
+$base-searchBg-hover-color: #2C9997;
+$base-search-hover-size: #fff;
+// 获得焦点
+$base-searchBg-focus-color: #2C9997;
+$base-search-focus-size: #fff;
+//新增按钮
+// 默认样式
+$base-addBg-color: #242A29;
+$base-add-size: #2C9997;
+$base-add-border: #2C9997;
+// 鼠标悬浮
+$base-addBg-hover-color: #242A29;
+$base-add-hover-size: #2C9997;
+$base-add-hover-border: #2C9997;
+// 获得焦点
+$base-addBg-focus-color: #242A29;
+$base-add-focus-size: #2C9997;
+$base-add-focus-border: #2C9997;
+
+//批量删除
+$base-batch-color: #242A29;
+$base-batch-size: #2C9997;
+$base-batch-border: #2C9997;
+
+$base-batch-hover-color: #242A29;
+$base-batch-hover-size: #2C9997;
+$base-batch-hover-border: #2C9997;
+
+$base-batch-focus-color: #242A29;
+$base-batch-focus-size: #2C9997;
+$base-batch-focus-border: #2C9997;
+//批量删除禁用按钮样式
+$base-batch-disabled-color: #242A29;
+$base-batch-disabled-size: #2C9997;
+$base-batch-disabled-border: #2C9997;
+
+// 操作列 查看 修改 删除 用户角色 角色权限
+$base-check-color: #4FE7CB;
+$base-amend-color: #E7E14F;
+$base-delete-color: #E74F4F;
+$base-user-color: #4FE7CB;
+$base-auth-color: #4FE7CB;
+// 导入
+$base-importBtn-color: #242A29;
+$base-importBtn-size: #2C9997;
+$base-importBtn-border: #2C9997;
+// 导出
+$base-exportBtn-color: #242A29;
+$base-exportBtn-size: #2C9997;
+$base-exportBtn-border: #2C9997;
